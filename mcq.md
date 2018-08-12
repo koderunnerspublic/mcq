@@ -141,6 +141,7 @@ Consider this C code to swap two integers and these five statements after it:
    *py = *px + *py; 
    *px = *py - *px; 
 }```
+S1: will generate a compilation error S2: may generate a segmentation fault at runtime depending on the arguments passed S3: correctly implements the swap procedure for all input pointers referring to integers stored in memory locations accessible to the process S4: implements the swap procedure correctly for some but not all valid input pointers S5: may add or subtract integers and pointers.
 
 **Options**
 1. S1
